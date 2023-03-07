@@ -1,0 +1,37 @@
+h2{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box-colores{
+    display: flex;
+    flex-direction: row;
+}
+.box-color{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+color: white;
+font-size: 1.5em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color-255-0-0{
+    background-color: rgb(255, 0, 0);
+}
+
+.color-rojo{
+    background-color: red;
+}
+.color-verde{
+    background-color: green;
+}
+.color-darkcyan{
+    background-color: darkcyan;
+}
+.color-ff25a7{
+    background-color: #ff25a7;
+}
