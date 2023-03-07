@@ -3,7 +3,7 @@
     padding: 0;
 }
 div {
-    background-color: rgb(24, 24, 24,.9);
+    background-color: rgba(65, 62, 62, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,8 +11,12 @@ div {
 }
 span{
     font-family: 'Cinzel';
-    font-size: 13em;
-    color: rgb(230, 3, 3);
+    font-size: 7em;
+    color: rgb(143, 160, 89);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* cinzel-regular - latin */
 @font-face {
