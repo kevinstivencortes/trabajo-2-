@@ -13,6 +13,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(238, 13, 13);
 }
 span{
 color: white;
@@ -23,15 +24,27 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 0, 0);
 }
 
-.color-rojo{
-    background-color: red;
-}
 .color-verde{
     background-color: green;
 }
 .color-darkcyan{
     background-color: darkcyan;
 }
+.color-rojo{
+    background-color: red;
+}
+.color-255-255-0{
+    background-color: rgb(255, 255, 0)
+}
+.color-100-87-80{
+    background-color: rgb(100, 87, 80);
+}
 .color-ff25a7{
     background-color: #ff25a7;
+}
+.color-ff8000{
+    background-color: #ff8000;
+}
+.color-00ffff{
+    background-color: #00ffff;
 }
