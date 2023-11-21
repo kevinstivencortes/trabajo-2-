@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compra</title>
+    <link rel="stylesheet" href="css/carrito-de-comprar.css">
+    <link rel="stylesheet" href="icons/all.css">
+</head>
+<body>
+    <div class="box-img-opad-mini">
+        <img class="img-opad-mini" src="img/ipad.png" alt="">
+        
+        <div class="main-content">
+            <label for="" class="ibl-subtotal">subtotal $ <label id="resultado">0</label></label>
+            <div class="box-proceder-pago">
+                <label>proceder con el pago (<span id="cantProductos">0 productos</span>)</label>
+            </div>
+            
+            <div class="box-producto">
+                <div class="box-img">
+                    <img src="img/el valle de los muertos.jpg" alt="">
+                </div>
+                <div class="info-producto">
+                    <h2>El valle de los muertos vivientes</h2>
+                    <label class="book-descripcion"></label>
+                    <label for="">Sobrevivir no será tarea fácil. El fenómeno llegó indistinguidamente a cada rincón del planeta y no hay nadie que pueda salvar a la raza humana. </label>
+                    <br><br>
+                    <label>Autor: Rodrigo de oliveira</label>
+                    <br><br>
+                    <label>pasta dura</label>
+                    <br><br>
+                    <label class="precio-unidad">COP <span id="precioUnidad"></span></label>
+                </div>
+            </div>
+            <div class="box-minus-plus">
+                <div><span id="boxMinus" class="box-minus">-</span></div>
+                <div><span id="boxUnidades" class="box-unidades">0</span></div>
+                <div><span id="boxPlus" class="box-plus"><i class="fa-solid fa-plus"></i></span></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/carrito.js"></script>
+</body>
+</html>

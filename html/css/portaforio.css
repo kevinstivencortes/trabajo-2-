@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+}
+
+.header {
+    background-color: #e74c3c;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el menú aparezca por encima de otros elementos */
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #c0392b;
+}
+.contenido {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+.texto {
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+}
+
+.imagen img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px; 
+    height: 600px; 
+    border-radius: 20%;
+}
+
+/* para hacer responsi la pagina */
+@media (max-width: 768px) {
+    
+}
+
+/* quitar el menu cuando se encoje */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

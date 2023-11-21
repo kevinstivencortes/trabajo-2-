@@ -1,0 +1,29 @@
+body{
+    background-image: url("../img/fondo-mar-playa-vacio_74190-1749.png");
+    z-index: 3;
+    position: absolute;
+    
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+.box-1{
+    background-color: darkcyan;
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+}
+.box-2{
+    background-color: goldenrod;
+    z-index: 5;
+}
+.box-3{
+    background-color: dodgerblue;
+    z-index: 3;
+    top: 100px;
+    left: 100px;
+    
+}

@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-movil{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 299, 0);
+    display: grid;
+    grid-template: "box-logo-merc     box-input   menu-hamburguesa    carrito"/
+                    60px               1fr         50px               50px;
+}
+.box-logo-merc{
+    grid-area: box-logo-merc;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.logo-merc{
+    width: 50px;
+}
+.box-input{
+    grid-area:box-input;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menu-hamburguesa{
+    grid-area: menu-hamburguesa;
+    display: flex;
+    align-items: center;
+}
+.carrito{
+    grid-area: carrito;
+    display: flex;
+    align-items: center;
+}
+.box-icon-style{
+    color: rgb(24,24,24,.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    font-size: 1.3em;
+}
+.input-busqueda{
+    width: 90%;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding-left: 20px;
+}
+.box-producto{
+    width: 100%;
+    padding: 25px 0;
+    display: grid;
+    border-bottom: 1px solid rgb(200,200,200.5);;
+    grid-template: "box-imagen box-info-producto" auto /
+                    7fr         10fr;
+}
+.box-imagen{
+    grid-area:box-imagen ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-info-producto{
+    grid-area:box-info-producto;
+    /* background-color: rgba(158, 158, 237, 0.597); */
+}
+.imagen-producto{
+    width: 85%;
+}
+label{
+    display: block;
+}
+.marca-producto , .modelo-producto{
+    line-height: 30px;
+    font-size: .8em;
+    font-weight: 400;
+
+}
+.precio-producto{
+    font-size: 1.2em;
+    display: block;
+    font-weight: 400;
+}
+.anyo-producto, .kilometraje, .ciudad {
+    font-size: .7em;
+    color: rgb(140,140,140);
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* poppins-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  

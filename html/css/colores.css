@@ -1,0 +1,50 @@
+h2{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box-colores{
+    display: flex;
+    flex-direction: row;
+}
+.box-color{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 13, 13);
+}
+span{
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color-255-0-0{
+    background-color: rgb(255, 0, 0);
+}
+
+.color-verde{
+    background-color: green;
+}
+.color-darkcyan{
+    background-color: darkcyan;
+}
+.color-rojo{
+    background-color: red;
+}
+.color-255-255-0{
+    background-color: rgb(255, 255, 0)
+}
+.color-100-87-80{
+    background-color: rgb(100, 87, 80);
+}
+.color-ff25a7{
+    background-color: #ff25a7;
+}
+.color-ff8000{
+    background-color: #ff8000;
+}
+.color-00ffff{
+    background-color: #00ffff;
+}

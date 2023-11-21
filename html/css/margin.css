@@ -1,0 +1,42 @@
+.box-style{
+    display: inline-block;
+    width: 400px;
+    /* 1er. forma de crear un margen */
+    /*margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;*/
+    /* 2da. forma de crear una margen */
+    /* margin: 30px 10px; */
+    /* 3ra. forma de crear una margen*/
+    margin: 30px;
+    /*padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;*/
+    padding: 0px 45px;
+    text-align: justify;
+    /*por defecto viene en 0*/
+    letter-spacing: .1em;
+    /* por defecto viene en 0*/
+    word-spacing: .2em;
+    /*por defecto viene en 1.2em*/
+    line-height: 2em;
+}
+.box-1{
+    border: 5px solid rgb(64, 64, 64);
+}
+.box-2{
+    border: 5px dotted red;
+}
+.box-3{
+    border: 5px dashed blue;
+}
+.box-4{
+    border: 5px double darkcyan;
+}
+p{
+    font-size: 1.4em;
+    color: rgb(48, 48, 48);
+    padding: 0px;
+}

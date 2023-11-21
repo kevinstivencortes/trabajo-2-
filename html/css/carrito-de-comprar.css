@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-img-opad-mini{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-opad-mini{
+    width: 713px;
+}
+.main-content{
+    width: 550px;
+    position: absolute;
+    top: 170px;
+    margin:10px 10px 0 10px ;
+    font-family: 'Poppins';
+}
+.ibl-subtotal{
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.box-proceder-pago{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(247, 231, 8);
+    font-size: 1.4em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.box-producto{
+    margin-top: 30px;
+    display: grid;
+    grid-template: "derecha izquierda"/
+                    5fr     6fr ;
+                    gap: 9px;
+}
+.box-img{
+    grid-area: derecha;
+}
+.book-descripcion{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.info-producto{
+    grid-area: izquierda;
+    font-weight: 500;
+    font-size: 1.1em;
+    
+}
+.precio-unidad{
+    padding-top: 40px;
+    font-size: 1.2em;
+}
+.box-cantidad{
+    border: 3px solid black;
+}
+.box-minus-plus{
+    display: flex;
+    flex-direction:row;
+    font-size: 1.3em;
+    width: 270px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.box-minus, .box-unidades, .box-plus{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.box-minus, .box-plus{
+    background-color: rgb(200, 200, 200);
+}
+.box-minus{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.box-plus{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+b{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

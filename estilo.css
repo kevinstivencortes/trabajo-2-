@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    background-color: skyblue;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+}
+
+.barra{
+    text-align: center;
+    background-color: aqua;
+}
+.titulo{
+    text-align: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+button{
+    border: 10px;
+    padding: 10px 30px ;
+    background-color: #e4e4ec;
+    text-decoration: none;
+    position: relative;
+    margin: 10px;
+   /*  border-color: #000000; */
+    border-width: 3px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+
+} 
+button:hover{
+    background: rgb(253, 225, 225);
+}
+button:active{
+    background: #03bb85;
+}
+a{
+    color: black;
+}
+h1, h2{
+    padding: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <div class="main-box">
+        <form>
+            <div class="form-title">
+
+            </div>
+            <div class="form-box">
+                <label class="txt-inicio-sesion">iniciar sesion</label>
+                <label>ingrese su tipo de documentos</label>
+                <select name="tipo de identificacion">
+                    <option value="cc">cédula de ciudadania</option>
+                    <option value="ti">targeta de identidad</option>
+                    <option value="rc">registro civil</option>
+                    <option value="ce">cedula de extranjeria</option>
+                </select>
+                <label>ingrese su numero de documento</label>
+                <input type="text" name="" placeholder="numero de documento">
+                <label>seleccione los dias para visualizar los vuelos disponibles</label>
+                <input type="checkbox" name="fecha-cita" value="2023-04-19">miercoles, 19 de abrir del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-19">jueves,20 de abrir del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-19">viernes, 21 de abrir del 2023 <br>
+                <input type="checkbox" name="fecha-cita" value="2023-04-19">sabado, 22 de abrir del 2023 <br>
+                <label>ingrese su género</label>
+                <input type="radio" name="genero" value="masculino">masculino <br>
+                <input type="radio" name="genero" value="femenino">femenino <br>
+                <input type="radio" name="genero" value="otros">otros <br>
+                <label>le gustaria hacer una peticion especial</label>
+                <textarea name="peticiones" id="escri" cols="30" rows="5"></textarea>
+                <input type="submit" value="iniciar sesion ">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
