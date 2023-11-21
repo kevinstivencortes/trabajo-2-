@@ -28,9 +28,9 @@ window.addEventListener("keydown", (event) => {
     }  
 });
 
-/* cargarAutomovil(auto1);
+cargarAutomovil(auto1);
 cargarAutomovil(auto2);
- */
+
 
 function cargarAutomovil(auto1) {
     /* contenedor para los para los productos individuales */
